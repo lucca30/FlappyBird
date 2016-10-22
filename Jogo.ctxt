@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getTitulo()
+comment1.params=
+comment1.target=int\ getLargura()
+comment2.params=
+comment2.target=int\ getAltura()
+comment3.params=teclas\ dt
+comment3.target=void\ tique(java.util.Set,\ double)
+comment4.params=tecla
+comment4.target=void\ tecla(java.lang.String)
+comment5.params=tela
+comment5.target=void\ desenhar(Tela)
+numComments=6

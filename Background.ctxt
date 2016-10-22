@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=j
+comment0.target=Background(Jogo)
+comment1.params=t
+comment1.target=void\ print(Tela)
+comment2.params=dt
+comment2.target=void\ refresh(double)
+comment3.params=
+comment3.target=boolean\ remove()
+numComments=4

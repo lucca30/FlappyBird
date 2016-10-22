@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=limite\ repete\ acao
+comment0.target=Timer(double,\ boolean,\ Acao)
+comment1.params=dt
+comment1.target=void\ tique(double)
+numComments=2

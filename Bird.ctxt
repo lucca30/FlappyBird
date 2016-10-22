@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ executa()
+comment1.params=t
+comment1.target=void\ print(Tela)
+comment2.params=dt
+comment2.target=void\ refresh(double)
+comment3.params=
+comment3.target=boolean\ remove()
+comment4.params=tecla
+comment4.target=void\ tecla(java.lang.String)
+numComments=5

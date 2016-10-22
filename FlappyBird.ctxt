@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FlappyBird()
+comment1.params=
+comment1.target=void\ executa()
+comment2.params=
+comment2.target=java.lang.String\ getTitulo()
+comment3.params=
+comment3.target=int\ getLargura()
+comment4.params=
+comment4.target=int\ getAltura()
+comment5.params=teclas\ dt
+comment5.target=void\ tique(java.util.Set,\ double)
+comment6.params=tecla
+comment6.target=void\ tecla(java.lang.String)
+comment7.params=tela
+comment7.target=void\ desenhar(Tela)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

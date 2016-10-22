@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=Obstacle(FlappyBird)
+comment0.text=\r\n\ Y\ interval\ ->\ 120|310\r\n
+comment1.params=dt
+comment1.target=void\ refresh(double)
+comment2.params=t
+comment2.target=void\ print(Tela)
+comment2.text=X\ represents\ the\ left\ side,\ but\ y\ represents\ the\ center
+comment3.params=
+comment3.target=boolean\ remove()
+numComments=4
