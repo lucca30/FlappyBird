@@ -35,6 +35,7 @@ public class Cor
         return cores.get(indice);
     }
     
+    public static Cor PRETO = Cor.rgb(0.0, 0.0, 0.0);    
     public static Cor BRANCO = Cor.rgb(1.0, 1.0, 1.0);
     public static Cor AZUL = Cor.rgb(0.0, 0.0, 1.0);
     public static Cor VERMELHO = Cor.rgb(1.0, 0.0, 0.0);
