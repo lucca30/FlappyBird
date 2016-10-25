@@ -9,6 +9,10 @@ public class Bird implements Drawable{
     int sprite= 0;
     final double x = 100, Rotate_constant = 0.003;
     double speed= 0, gravity=500, y = 100;
+
+    //Colision Variables
+    double x0 =100.0, y0 = 100, x1 = 132, y1=124;
+    
     Timer sprite_switch=new Timer(0.1, true, 
     new Acao(){
         public void executa(){
@@ -29,15 +33,21 @@ public class Bird implements Drawable{
                 break;
         }
     }
-	public void refresh(double dt){
-	    sprite_switch.tique(dt);
-	    speed += gravity*dt;
-	    y+=speed*dt;
-	}
-	public boolean remove(){return false;}
-	public void tecla(String tecla){
-	    if(tecla.contains(" ")){
-	        speed = -250;
-	    }
-	}
+    public void refresh(double dt, FlappyBird j){
+        sprite_switch.tique(dt);
+        if(j.menu){return;}
+        speed += gravity*dt;
+        y+=speed*dt;
+        y = y<0?0:y;
+        y0 = y;
+        y1 = y0+24;
+    }
+    public boolean remove(){return false;}
+    public void tecla(String tecla){
+        if(tecla.contains(" ")){
+            speed = -250;
+        }
+    }
+    public boolean colision(Bird B){return false;}
+
 }

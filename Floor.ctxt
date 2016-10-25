@@ -1,10 +1,14 @@
 #BlueJ class context
 comment0.params=f
 comment0.target=Floor(FlappyBird)
-comment1.params=t
-comment1.target=void\ print(Tela)
-comment2.params=dt
-comment2.target=void\ refresh(double)
-comment3.params=
-comment3.target=boolean\ remove()
-numComments=4
+comment1.params=f\ x
+comment1.target=Floor(FlappyBird,\ double)
+comment2.params=t
+comment2.target=void\ print(Tela)
+comment3.params=dt\ j
+comment3.target=void\ refresh(double,\ FlappyBird)
+comment4.params=
+comment4.target=boolean\ remove()
+comment5.params=B
+comment5.target=boolean\ colision(Bird)
+numComments=6

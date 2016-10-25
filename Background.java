@@ -5,10 +5,11 @@ public class Background implements Drawable{
         t.imagem("sprite.png", 0, 0, 287, 512, 0.0, 287 , y);
         t.imagem("sprite.png", 0, 0, 287, 512, 0.0, 574 , y);
     }
-    public void refresh(double dt){
+    public void refresh(double dt, FlappyBird j){
     }
     public boolean remove(){
         return false;
     }
+    public boolean colision(Bird B){return false;}
 
 }
